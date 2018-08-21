@@ -16,4 +16,4 @@ RUN apk update && \
 ENV PATH /usr/local/texlive/2018/bin/x86_64-linux:$PATH
 WORKDIR /home
 
-CMD ["tlmgr", "--version"]
+CMD ["/bin/sh"]
