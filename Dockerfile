@@ -16,7 +16,7 @@ RUN apk update && \
 # required packages
 RUN apk add cairo icu-libs libgcc libpaper libpng libstdc++ libx11 musl perl pixman poppler zlib
 
-ENV PATH /usr/local/texlive/2018/bin/x86_64-linuxmusl:$PATH
+ENV PATH /usr/local/texlive/2020/bin/x86_64-linuxmusl:$PATH
 WORKDIR /home
 
 CMD ["/bin/sh"]
